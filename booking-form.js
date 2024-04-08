@@ -63,7 +63,7 @@ $(function()
 });
 
 
-const scriptURL = 'https://script.google.com/macros/s/AKfycbwzla2RVLSb8T4WhWpg0w5KFXvN9VssXlwfNd08qJB1dYzoG5scQ3Wl1DDpGEKW_77GQQ/exec'
+const scriptURL = 'https://script.google.com/macros/s/AKfycbydyvgRN_Q9jWc7GQwr3kC_hCIMFt5fNWvdzjETFfug/dev'
 
 const form = document.forms['contact-form']
 
