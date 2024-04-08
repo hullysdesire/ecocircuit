@@ -9,15 +9,15 @@
     
 </body>
 
-
 <?php
+
 // Récupérez les données du formulaire
-$depart = $_POST['Depart'];
-$destination = $_POST['Destination'];
-$name = $_POST['Name'];
-$email = $_POST['Email'];
-$phone = $_POST['phone'];
-$message = $_POST['message'];
+// $depart = $_POST['Depart'];
+// $destination = $_POST['Destination'];
+// $name = $_POST['Name'];
+// $email = $_POST['Email'];
+// $phone = $_POST['phone'];
+// $message = $_POST['message'];
 
 // Adresse e-mail de destination
 $to_email = "hullysdesire1@gmail.com";
@@ -38,6 +38,7 @@ if (mail($to_email, $subject, $email_content, $headers)) {
     echo "Une erreur est survenue lors de l'envoi de la réservation. Veuillez réessayer.";
 }
 ?>
+
 
 
 </html>
